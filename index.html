@@ -21,26 +21,26 @@
     <form action="/" method="GET" class="main-content__form">
       <section>
         <h2>How can we help you ?</h2>
-        <ul>
+        <ul class="main-content__container">
           <li>
-            <label for="user-name">Your name</label>
+            <label class="main-content__label" for="user-name">Your name</label>
             <input type="text" name="user-name" id="user-name" class="main-content__input" required>
           </li>
           <li>
-            <label for="user-email">Your E-mail Address</label>
+            <label class="main-content__label" for="user-email">Your E-mail Address</label>
             <input type="email" name="user-email" id="user-email" class="main-content__input" required>
           </li>
           <li>
-            <label for="user-phone">Your Phone Number</label>
+            <label class="main-content__label" for="user-phone">Your Phone Number</label>
             <input class="main-content__input" type="number" name="user-phone" id="user-phone" required>
           </li>
           <li>
-            <label for="user-message">Your Message</label>
+            <label class="main-content__label" for="user-message">Your Message</label>
             <textarea name="user-message" id="user-message" cols="30" rows="10"
               class="main-content__input main-content__input--message" required></textarea>
           </li>
           <li>
-            <label for="user-answer">Found by</label>
+            <label class="main-content__label" for="user-answer">Found by</label>
             <select name="user-answer" id="user-answer" class="main-content__input" required>
               <option value=""></option>
               <option value="web">Web Search</option>
@@ -53,23 +53,23 @@
 
       <section>
         <h2>How should we reply ?</h2>
-        <ul>
+        <ul class="main-content__container">
           <li class="main-content__form-control">
             <input value="call" id='call' type="radio" name="how-to-reply" required>
-            <label for="call">Call me</label>
+            <label class="main-content__label" for="call">Call me</label>
           </li>
           <li class="main-content__form-control">
             <input value="email" id="email" type="radio" name="how-to-reply" required>
-            <label for="email">Send me an email</label>
+            <label class="main-content__label" for="email">Send me an email</label>
           </li>
           <li class="main-content__form-control">
             <input value="no-reply" id="no-reply" type="radio" name="how-to-reply" required>
-            <label for="no-reply">Don't reply</label>
+            <label class="main-content__label" for="no-reply">Don't reply</label>
           </li>
         </ul>
         <div class="main-content__form-control">
           <input type="checkbox" name="legal" id="legal" required>
-          <label for="legal">Accept Terms</label>
+          <label class="main-content__label" for="legal">Accept Terms</label>
         </div>
       </section>
       <section>

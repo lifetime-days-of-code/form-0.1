@@ -13,21 +13,22 @@ body {
 }
 
 .main-content__form {
-  max-width: 600px;
+  max-width: 40rem;
   margin: 0 auto;
   background-color: var(--color-300);
   padding: 2rem;
   border-radius: 4px;
   color: var(--color-white);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
-ul {
+.main-content__container {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-label {
+.main-content__label {
   font-size: 1.3rem;
   color: var(--color-100);
   display: block;
@@ -58,7 +59,7 @@ label {
 }
 
 .main-content__input--message {
-  min-height: 300px;
+  min-height: 18rem;
   resize: none;
 }
 
@@ -90,10 +91,10 @@ label {
 .main-content__button--submit {
   background-color: var(--color-100);
   color: var(--color-400);
-  transition: opacity .2s ease-in;
+  transition: opacity 0.2s ease-in;
 }
 
 .main-content__button:hover {
   cursor: pointer;
-  opacity: .8;
+  opacity: 0.8;
 }
